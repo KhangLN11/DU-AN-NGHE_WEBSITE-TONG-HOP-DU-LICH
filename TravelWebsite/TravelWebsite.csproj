@@ -220,6 +220,7 @@
     <Content Include="Content\css\admin.css" />
     <Content Include="Content\css\responsive.css" />
     <Content Include="Content\css\style.css" />
+    <Content Include="Content\css\variables.css" />
     <Content Include="Scripts\admin.js" />
     <Content Include="Scripts\favorite.js" />
     <Content Include="Scripts\main.js" />
@@ -261,6 +262,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\validation.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -281,6 +283,7 @@
     <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Shared\_Navbar.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Shared\_Sidebar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -294,6 +297,7 @@
     <Folder Include="Views\Admin\" />
     <Folder Include="Views\Category\" />
     <Folder Include="Views\Company\" />
+    <Folder Include="Views\Compare\" />
     <Folder Include="Views\Contact\" />
     <Folder Include="Views\Favorite\" />
     <Folder Include="Views\Location\" />
